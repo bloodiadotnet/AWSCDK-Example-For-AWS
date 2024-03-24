@@ -1,0 +1,14 @@
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+dist
+README.md
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# package
+package.json
+package-lock.json

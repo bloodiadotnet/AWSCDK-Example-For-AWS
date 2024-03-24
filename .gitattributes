@@ -1,0 +1,12 @@
+*           text=auto
+*.vue       text eol=lf
+*.js        text eol=lf
+*.ts        text eol=lf
+*.json      text eol=lf
+*.html      text eol=lf
+*.css       text eol=lf
+*.jpeg      -text
+*.jpg       -text
+*.png       -text
+*.gif       -text
+*.bmp       -text
