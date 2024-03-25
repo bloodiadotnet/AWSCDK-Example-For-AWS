@@ -15,6 +15,13 @@
   "engines": {
     "node": ">=18.0"
   },
+  "dependencies": {
+    "@types/config": "^3.3.4",
+    "aws-cdk-lib": "^2.133.0",
+    "config": "^3.3.11",
+    "constructs": "^10.3.0",
+    "source-map-support": "^0.5.21"
+  },
   "devDependencies": {
     "@aws-sdk/client-acm": "^3.540.0",
     "@aws-sdk/client-cloudformation": "^3.540.0",
@@ -29,13 +36,6 @@
     "prettier": "^3.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.3"
-  },
-  "dependencies": {
-    "@types/config": "^3.3.4",
-    "aws-cdk-lib": "^2.133.0",
-    "config": "^3.3.11",
-    "constructs": "^10.3.0",
-    "source-map-support": "^0.5.21"
   },
   "eslintIgnore": [
     "/.eslintrc.js"
