@@ -43,7 +43,6 @@ To configure your Azure credentials and tenant/settings details, set the followi
 
   ```bash
   export AWS_PROFILE=<Your AWS Profile>
-  export AWS_REGION=<Your AWS Region>
   export NODE_ENV=<Your Node.js environment>
   ```
 
