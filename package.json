@@ -16,25 +16,25 @@
     "node": ">=18.0"
   },
   "dependencies": {
-    "@types/config": "^3.3.4",
-    "aws-cdk-lib": "^2.133.0",
-    "config": "^3.3.11",
-    "constructs": "^10.3.0",
-    "source-map-support": "^0.5.21"
-  },
-  "devDependencies": {
     "@aws-sdk/client-acm": "^3.540.0",
     "@aws-sdk/client-cloudformation": "^3.540.0",
     "@aws-sdk/client-ec2": "^3.540.0",
     "@aws-sdk/client-ssm": "^3.540.0",
+    "@types/config": "^3.3.4",
+    "aws-cdk": "^2.133.0",
+    "aws-cdk-lib": "^2.133.0",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
     "@types/node": "^20.11.30",
     "@typescript-eslint/eslint-plugin": "^7.3.1",
     "@typescript-eslint/parser": "^7.3.1",
-    "aws-cdk": "^2.133.0",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "prettier": "^3.2.5",
-    "ts-node": "^10.9.2",
+    "constructs": "^10.3.0",
+    "config": "^3.3.11",
+    "source-map-support": "^0.5.21",
     "typescript": "^5.4.3"
   },
   "eslintIgnore": [
