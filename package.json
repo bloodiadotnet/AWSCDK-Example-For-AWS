@@ -1,8 +1,8 @@
 {
   "name": "awscdk-example-for-aws",
+  "description": "This source code is a hands-on project that uses the AWS CDK to manage Amazon Web Services resources.",
   "version": "1.0.0",
   "license": "MIT",
-  "private": true,
   "bin": {
     "infra": "bin/infra.js"
   },
