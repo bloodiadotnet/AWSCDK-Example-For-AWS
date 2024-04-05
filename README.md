@@ -69,7 +69,7 @@ To compile your TypeScript code into JavaScript, use:
 npm run build
 ```
 
-### Step 5: Diff Your Deployment 
+### Step 5: Diff Your Deployment
 
 To see the differences between your current state and the changes the AWS CDK is going to deploy, use:
 
