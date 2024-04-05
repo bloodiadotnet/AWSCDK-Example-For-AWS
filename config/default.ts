@@ -1,5 +1,5 @@
 const stage = process.env.NODE_ENV ? process.env.NODE_ENV : 'default';
-const product = 'cdk-example-for-aws';
+const product = 'awscdk-example-for-aws';
 
 export = {
     stage: stage.toLowerCase(),
