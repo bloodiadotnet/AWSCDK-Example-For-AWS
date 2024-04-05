@@ -7,7 +7,6 @@ import { MainStack } from '../main-stack';
 export class SsmStack {
     constructor(scope: MainStack) {
         if (config.get('ssm.associations.enable')) {
-            // パッチ管理アソシエーションを作成
             new CfnAssociation(scope, 'PatchAssociation', {
                 name: 'AWS-RunPatchBaseline',
                 applyOnlyAtCronInterval: false,
@@ -30,7 +29,6 @@ export class SsmStack {
                 waitForSuccessTimeoutSeconds: 300,
             });
 
-            // SSMエージェント自動更新アソシエーションを作成
             new CfnAssociation(scope, 'UpdateSSMAgentAssociation', {
                 name: 'AWS-UpdateSSMAgent',
                 applyOnlyAtCronInterval: false,
@@ -53,7 +51,6 @@ export class SsmStack {
                 waitForSuccessTimeoutSeconds: 300,
             });
 
-            // ソフトウェア資産管理アソシエーションを作成
             new CfnAssociation(scope, 'GatherSoftwareInventoryAssociation', {
                 name: 'AWS-GatherSoftwareInventory',
                 applyOnlyAtCronInterval: false,
