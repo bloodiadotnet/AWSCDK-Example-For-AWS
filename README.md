@@ -37,7 +37,7 @@ AWS CDK is required. For MacOS, you can install it via Homebrew. For Windows, yo
 
 ### Step 2: Set AWS Environment Variables
 
-Please replace `<Your AWS Profile>` and `<Your Node.js environment>` with your actual AWS Profile and Node.js environment respectively. set the following environment variables:
+To configure your AWS credentials and account/settings details, set the following environment variables:
 
 - MacOS:
 
@@ -52,6 +52,8 @@ Please replace `<Your AWS Profile>` and `<Your Node.js environment>` with your a
   $env:AWS_PROFILE="<Your AWS Profile>"
   $env:NODE_ENV="<Your Node.js environment>"
   ```
+
+Please replace `<Your AWS Profile>` and `<Your Node.js environment>` with your actual Your AWS Profile and Node.js environment respectively.
 
 ### Step 3: Install npm Packages
 
